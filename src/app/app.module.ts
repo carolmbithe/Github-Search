@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { GithubComponent } from './github/github.component';
+import { GithubsearchComponent } from './githubsearch/githubsearch.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GithubComponent
+    GithubComponent,
+    GithubsearchComponent
   ],
   imports: [
     BrowserModule
