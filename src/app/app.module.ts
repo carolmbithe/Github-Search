@@ -11,6 +11,7 @@ import { NgProgressHttpModule } from '@ngx-progressbar/http';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { HighlightDirective } from './highlight.directive';
 // import {RoutingModule} from './routing/routing.module'
 
 
@@ -29,6 +30,7 @@ const routes:Routes=[
     GithubsearchComponent,
     AboutComponent,
     NotFoundComponent,
+    HighlightDirective,
     
   ],
   imports: [
