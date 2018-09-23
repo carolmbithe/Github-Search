@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GithubComponent implements OnInit {
 
-  title="GITHUB SEARCH"
+  title="GITHUB SEARCH";
+
+  
 
   constructor() { }
 
