@@ -1,27 +1,39 @@
-# GitHub
+# GitHub Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
+## Author name
+Caroline Mumo
+## Description of project
+This project allows a user to create a new quote,Each quote the user add must have the name of the author and the person who submitted it.The user can also delete a Quote and also upvote or downvote a quote.
 
-## Development server
+# Deployment
+You can get my livesite at gh-pages with this link  https://carolmbithe.github.io/Quotes/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Project setup instructions
+You can install this app by cloning the repository from this link https://github.com/carolmbithe/Quotes.git
 
-## Code scaffolding
+## Known Bugs
+There are no known bugs so far,everything is working.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Behaviour Driven Development
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Technologies Used
+This project was generated with Angular CLI version 6.2.1.
+CSS-The stylesheet
+Bootstrap
 
-## Running unit tests
+## Support and contact details
+ If any issues,questions,ideas and concerns are encountered,feel free to contact mumocaroline19@gmail.com
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## License
+This project is licensed under the MIT License
+## Copyright (c) 2018 Caroline Mumo
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
