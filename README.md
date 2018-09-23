@@ -3,19 +3,21 @@
 ## Author name
 Caroline Mumo
 ## Description of project
-This project allows a user to create a new quote,Each quote the user add must have the name of the author and the person who submitted it.The user can also delete a Quote and also upvote or downvote a quote.
+This project allows a person to search for github users on github using their usernames and they get to see their details which include their repositories,bio,followers or following.
 
 # Deployment
-You can get my livesite at gh-pages with this link  https://carolmbithe.github.io/Quotes/
+You can get my livesite at gh-pages with this link  https://carolmbithe.github.io/Github-Search/
 
 ## Project setup instructions
-You can install this app by cloning the repository from this link https://github.com/carolmbithe/Quotes.git
+You can install this app by cloning the repository from this link https://github.com/carolmbithe/Github-Search.git
 
 ## Known Bugs
 There are no known bugs so far,everything is working.
 
 ## Behaviour Driven Development
-
+The navigation has links on About and Github
+On clicking About,it takes to a page that has details about the application
+When you choose github,it takes you to a page where you can search for users on github
 
 ## Technologies Used
 This project was generated with Angular CLI version 6.2.1.
@@ -27,6 +29,7 @@ Bootstrap
 
 ## License
 This project is licensed under the MIT License
+
 ## Copyright (c) 2018 Caroline Mumo
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
