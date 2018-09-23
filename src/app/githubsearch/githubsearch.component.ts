@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GithubsearchComponent implements OnInit {
 
-  constructor() { }
+link="https://api.giphy.com/v1/gifs/search?q=";
+ key="&api_key=GmxQH7oMwWvakXa8MstlqvInM3EM3FMR";
+ gifs=[];
+
+  constructor(private http:Http) { }
 
   ngOnInit() {
   }
