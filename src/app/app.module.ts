@@ -8,16 +8,16 @@ import { GithubComponent } from './github/github.component';
 import { GithubsearchComponent } from './githubsearch/githubsearch.component';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
-import { AboutComponent } from './about/about.component';
-import { RouterModule, Routes } from '@angular/router';
-import { NotFoundComponent } from './not-found/not-found.component';
+// import { AboutComponent } from './about/about.component';
+// import { RouterModule, Routes } from '@angular/router';
+// import { NotFoundComponent } from './not-found/not-found.component';
 
-const routes:Routes=[
-  {path:"github",component:GithubComponent},
-  {path:"about",component:AboutComponent},
-  {path:"home",redirectTo:"/github",pathMatch:"full"},
-  {path:'**',component:NotFoundComponent}
-]
+// const routes:Routes=[
+//   {path:"github",component:GithubComponent},
+//   {path:"about",component:AboutComponent},
+//   {path:"home",redirectTo:"/github",pathMatch:"full"},
+//   {path:'**',component:NotFoundComponent}
+// ]
 
 
 @NgModule({
@@ -25,8 +25,8 @@ const routes:Routes=[
     AppComponent,
     GithubComponent,
     GithubsearchComponent,
-    AboutComponent,
-    NotFoundComponent,
+    // AboutComponent,
+    // NotFoundComponent,
     
   ],
   imports: [
@@ -34,7 +34,7 @@ const routes:Routes=[
     HttpClientModule,
     NgProgressModule.forRoot(),// normal progress bar
     NgProgressHttpModule, // progress bar to load http requests
-    RouterModule.forRoot(routes)
+    // RouterModule.forRoot(routes)
 
 
   ],
