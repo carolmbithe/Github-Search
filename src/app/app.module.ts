@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HttpModule} from '@angular/http';
 import {HttpClientModule} from '@angular/common/http';
 
 
@@ -11,17 +10,17 @@ import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router';
-// import { NotFoundComponent } from './not-found/not-found.component';
-// import { HighlightDirective } from './highlight.directive';
-import {RoutingModule} from './routing/routing.module'
+import { NotFoundComponent } from './not-found/not-found.component';
+import { HighlightDirective } from './highlight.directive';
+// import {RoutingModule} from './routing/routing.module'
 
 
-// const routes:Routes=[
-//   {path:"github",component:GithubComponent},
-//   {path:"about",component:AboutComponent},
-//   {path:"home",redirectTo:"/github",pathMatch:"full"},
-//   {path:'**',component:NotFoundComponent}
-// ]
+const routes:Routes=[
+  {path:"github",component:GithubComponent},
+  {path:"about",component:AboutComponent},
+  {path:"home",redirectTo:"/github",pathMatch:"full"},
+  {path:'**',component:NotFoundComponent}
+]
 
 
 @NgModule({
@@ -30,17 +29,17 @@ import {RoutingModule} from './routing/routing.module'
     GithubComponent,
     GithubsearchComponent,
     AboutComponent,
-    // NotFoundComponent,
-    // HighlightDirective,
+    NotFoundComponent,
+    HighlightDirective,
     
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    RoutingModule,
+    // RoutingModule,
     NgProgressModule.forRoot(),// normal progress bar
     NgProgressHttpModule, // progress bar to load http requests
-    // RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes)
 
 
   ],
