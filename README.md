@@ -6,7 +6,7 @@ Caroline Mumo
 This project allows a person to search for github users on github using their usernames and they get to see their details which include their repositories,bio,followers or following.
 
 # Deployment
-You can get my livesite at gh-pages with this link  https://carolmbithe.github.io/Github-Search/
+You can get my livesite at gh-pages with this link   https://carolmbithe.github.io/Github-Search/
 
 ## Project setup instructions
 You can install this app by cloning the repository from this link https://github.com/carolmbithe/Github-Search.git
