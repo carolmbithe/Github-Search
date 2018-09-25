@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
+import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
@@ -31,6 +32,7 @@ const routes:Routes=[
     AboutComponent,
     NotFoundComponent,
     HighlightDirective,
+
     
   ],
   imports: [
@@ -39,7 +41,10 @@ const routes:Routes=[
     // RoutingModule,
     NgProgressModule.forRoot(),// normal progress bar
     NgProgressHttpModule, // progress bar to load http requests
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    HttpClientModule,
+    HttpModule,
+
 
 
   ],
